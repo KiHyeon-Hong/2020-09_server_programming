@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 하나의 광고를 담는 부분이다. -->
+
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/CodeCraft.bmp</ImageUrl>
+    <NavigateUrl>https://naver.com</NavigateUrl>
+    <Impressions>1</Impressions>
+    <Keyword>flowers</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/ShortCoding.bmp</ImageUrl>
+    <NavigateUrl>https://naver.com</NavigateUrl>
+    <Keyword>Programming</Keyword>
+    <Impressions>1</Impressions>
+  </Ad>
+</Advertisements>
