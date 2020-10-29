@@ -1,0 +1,16 @@
+﻿비 연결은 보통 DataSet을 사용한다
+
+<3가지 형태로 나눌 수 있음>
+화면에다가 출력하는 방법
+컨트롤 도구를 이용하는 방법
+GridView 등을 활용하는 방법
+
+Control 이용하는 부분 2가지 - 일반 컨트롤, 데이터 컨트롤
+
+<비연결 5가지 절차>
+1. select 실행할 command 객체를 생성
+2. insert, update, delete문을 실행할 command 객체 생성
+3. DataAdapter 객체를 통해 DataSet에 가상 데이터베이스 생성
+4. DataSet테이블에 CRUD
+5. DataAdapter 객체를 통해 변경된 테이블 내용을 실 데이터베이스에 반영
+
