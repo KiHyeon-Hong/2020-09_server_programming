@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="week10_1.MasterPages.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style="width: 100%;">
+            <tr>
+                <td colspan="2" align="center">
+                    <asp:Image ID="Image2" runat="server" ImageUrl="../images.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td width="200px">
+                    <a href="FrmPoli.aspx">정치</a>
+                    <a href="FrmCommoe.aspx">경제</a>
+                </td>
+                <td>
+                    <!-- 새로운 페이지가 만들어지는 부분이다 -->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="../images.jpg" />
+                    <h2>Made by maid</h2>
+                </td>
+            </tr>
+        </table>
+
+        <div>
+
+        </div>
+    </form>
+</body>
+</html>

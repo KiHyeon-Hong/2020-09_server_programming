@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Main.aspx" title="Home"  description="메인 페이지">
+    <siteMapNode url="FrmCompany.aspx" title="회사소개"  description="회사소개 페이지" />
+    <siteMapNode url="FrmCpyHist.aspx" title="회사 연혁"  description="회사 연혁 페이지" />
+
+    <siteMapNode url="FrmNotice.aspx" title="경영 이념"  description="경영 이념 페이지">
+      <siteMapNode url="FrmMagtideaDetail.aspx" title="경영 이념 세부"  description="경영 이념 세부 페이지" />
+    </siteMapNode>
+    
+  </siteMapNode>
+</siteMap>
